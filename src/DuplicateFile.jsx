@@ -5,7 +5,7 @@ function DuplicateFile() {
   return (
     <div>
       <div className="grid grid-cols-12 gap-8 p-20 bg-[#060d20] ">
-        <div className="border p-8 text-center rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64] duration-200">
+        <div className="border p-8 text-center col-span-4 rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64] duration-200">
           <div className="mt-5">
             <img
               src={
@@ -28,7 +28,7 @@ function DuplicateFile() {
 
           </div>
         </div>
-        <div className="border p-4 text-center rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
+        <div className="border p-4 col-span-8 text-center rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
           <div className="mt-8">
             <img
               src={
@@ -54,7 +54,7 @@ function DuplicateFile() {
           </div>
           </div>
         </div>
-        <div className="border p-4 text-center  rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
+        <div className="border p-4 text-center col-span-8  rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
           <div>
             <img
               src={
