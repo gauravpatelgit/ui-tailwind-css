@@ -21,11 +21,10 @@ function DuplicateFile() {
             push-pull pattern to move work between environments.
           </p>
           <div className="flex items-center mt-6 flex flex-row">
-            <h1 className="text-[#51a2ff]   flex flex-row text-left">
+            <h1 className="text-[#51a2ff]   flex flex-row text-left font-semibold">
               More on enviornments
             </h1>
             <ArrowRight className="w-5 h-5 hover:translate-x-1 transition-transform duration-200 text-[#51a2ff] ml-2 cursor-pointer" />
-
           </div>
         </div>
         <div className="border p-4 col-span-8 text-center rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
@@ -45,13 +44,12 @@ function DuplicateFile() {
               your private network, or use our robust cloud solution. The
               community version is free, an enterprise license isn't.
             </p>
-              <div className="flex items-center mt-10 gap-6">
-            <h1 className="text-[#51a2ff]  flex flex-row text-left">
-             Set it up
-            </h1>
-            <ArrowRight className="w-5 h-5 hover:translate-x-1 transition-transform duration-200 text-blue-500 ml-2 cursor-pointer " />
-
-          </div>
+            <div className="flex items-center mt-10 ">
+              <h1 className="text-[#51a2ff]  flex flex-row text-left font-semibold">
+                Set it up
+              </h1>
+              <ArrowRight className="w-5 h-5 hover:translate-x-1 transition-transform duration-200 text-blue-500 ml-2 cursor-pointer " />
+            </div>
           </div>
         </div>
         <div className="border p-4 text-center col-span-8  rounded-2xl bg-[#10173a] hover:outline-1 hover:outline-[#3d4b64]">
@@ -72,14 +70,13 @@ function DuplicateFile() {
             220 workflow executions per second on a single instance.
           </p>
           <div>
-            <h1 className="text-blue-500 mt-10 ml-0 text-xl font-bold  ">
-               <div className="flex items-center mt-10 gap-6">
-           <h1 className="text-[#51a2ff] flex flex-row text-lef">
-              Get the details
-            </h1>
-            <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-200 text-blue-500 ml-2 cursor-pointer " />
-
-          </div>
+            <h1 className="text-blue-500 mt-10 ml-0   ">
+              <div className="flex items-center mt-10 ">
+                <h1 className="text-[#51a2ff] flex flex-row text-lef font-semibold">
+                  Get the details
+                </h1>
+                <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-200 text-blue-500 ml-2 cursor-pointer " />
+              </div>
             </h1>
           </div>
         </div>
@@ -91,13 +88,11 @@ function DuplicateFile() {
             Your data's security is our commitment. We are SOC 2 audited and
             regularly perform external pen tests.
           </p>
-           <div className="flex items-center mt-10 gap-6">
-            <h1 className="text-[#51a2ff]  flex flex-row text-lef">
+          <div className="flex items-center mt-10 ">
+            <h1 className="text-[#51a2ff]  flex flex-row text-lef  font-semibold">
               Read more
-          
             </h1>
             <ArrowRight className="w-5 h-5 group-hover/link:translate-x-1 transition-transform duration-200 text-blue-500 ml-2 cursor-pointer " />
-
           </div>
           <div className=" mt-5 justify-items-center">
             <img
